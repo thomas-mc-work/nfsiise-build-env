@@ -1,4 +1,4 @@
-# Docker Build Environment For zaps166/NFSIISE
+# Docker Based Build Environment For zaps166/NFSIISE
 
 Cross-platform build environment for [zaps166/NFSIISE
 ](https://github.com/zaps166/NFSIISE) based on Docker.
@@ -9,15 +9,18 @@ This enables you to build the game binary **without pollluting your system with 
 
 ## Setup
 
-    curl -Lo -o nfsiise-build-env.tar.gz https://github.com/thomas-mc-work/NFSIISE-build-env/archive/master.tar.gz
+    curl -Lo nfsiise-build-env.tar.gz https://github.com/thomas-mc-work/nfsiise-build-env/archive/master.tar.gz
     tar xf nfsiise-build-env.tar.gz
-    chmod +x NFSIISE-build-env-master/build-it.sh
+    chmod +x nfsiise-build-env-master/build-it.sh
 
 ## Usage
 
 The latest release of the repository is build on every execution:
 
-    NFSIISE-build-env-master/build-it.sh <os-version>
+    cd nfsiise-build-env-master
+    ./build-it.sh <os-version>
+
+The create binary `nfs2se` will be dropped into an automatically created folder `nfsiise-build-env-master/output`.
  
 `os-version` can be one of:
 
