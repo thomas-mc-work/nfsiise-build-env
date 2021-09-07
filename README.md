@@ -1,10 +1,8 @@
 # Docker Based Build Environment For zaps166/NFSIISE
 
-Cross-platform build environment for [zaps166/NFSIISE](https://github.com/zaps166/NFSIISE) based on Docker (although Podman would do the job as well).
+Cross-platform build environment for [zaps166/NFSIISE](https://github.com/zaps166/NFSIISE) based on Docker/Podman.
 
-## Why Do I Need It?
-
-It enables you to build the game binary in an isolated environment. This **prevents your system being polluted with all the required development dependencies** (which are a lot).
+It allows you to build the game binary in an isolated environment. This **prevents your system being polluted with all the required development dependencies** (which are a lot).
 
 ## Setup
 
@@ -24,10 +22,10 @@ The latest release of the repository is build on every execution:
 - `ubuntu-18.04`
 - `ubuntu-20.04`
 
-Or you can easily extend one of the existing Dockerfiles to adapt any other Debian based OS or version.
+You can easily modify one of the existing Dockerfiles to adapt any other Debian based OS or version.
 
-The create binary `nfs2se` will be dropped into the current folder.
+The created binary `nfs2se` will be dropped into the current folder (`./nfs2se`).
 
 ## Final Note
 
-Currently the game is being compiled using the `gl1` CLI switch. THis is due to a visual regression, which I've encountered lately (2021-03). [This issue is being reported here](https://github.com/zaps166/NFSIISE/issues/68).
+Currently the game is being compiled using the `gl1` CLI switch. This is due to a visual regression, which I've encountered lately (2021-03). [This issue is being reported here](https://github.com/zaps166/NFSIISE/issues/68).
