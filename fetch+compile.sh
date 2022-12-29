@@ -6,5 +6,5 @@ git clone --quiet https://github.com/zaps166/NFSIISE.git >/dev/null 2>&1
 cd NFSIISE
 git submodule --quiet init >/dev/null 2>&1
 git submodule --quiet update >/dev/null 2>&1
-./compile_nfs gl2 >/dev/null 2>&1
+./compile_nfs gl1 >/dev/null 2>&1
 cat "/NFSIISE/Need For Speed II SE/nfs2se"
