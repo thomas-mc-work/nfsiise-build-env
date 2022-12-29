@@ -6,7 +6,8 @@ echo "parameter can be one of:
 · ubuntu-14.04
 · ubuntu-16.04
 · ubuntu-18.04
-· ubuntu-20.04"
+· ubuntu-20.04
+· ubuntu-22.04"
 
 os_version=${1?"param 1: OS version"}
 
