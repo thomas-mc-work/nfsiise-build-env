@@ -32,4 +32,4 @@ The created binary `nfs2se` will be dropped into the current folder (`./nfs2se`)
 
 ## Final Note
 
-Currently the game is being compiled using the `gl1` CLI switch. This is due to a visual regression, which I've encountered lately (2021-03). [This issue is being reported here](https://github.com/zaps166/NFSIISE/issues/68).
+Currently the game is being compiled using the `gl1` CLI switch. This is due to the fact that you can't use anti-aliasing when using `gl2`. See the regarding issue: https://github.com/zaps166/NFSIISE/issues/122
